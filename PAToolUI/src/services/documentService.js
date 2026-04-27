@@ -34,7 +34,7 @@ export const uploadDocument = async (file) => {
         'Accept': 'application/json',
       },
     })
-    console.log('response ::', response)
+    
     // Check if response is ok
     if (!response.ok) {
       const errorData = await response.json().catch(() => ({}))

@@ -33,7 +33,6 @@ button {
 
 input {
   font-family: inherit;
-}
   display: inline-flex;
   border-radius: 4px;
   color: var(--text-h);
